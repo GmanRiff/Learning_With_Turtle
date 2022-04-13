@@ -2,10 +2,14 @@ import turtle
 
 s = turtle.getscreen()
 t = turtle.Turtle()
-
-for x in range(4):
-  base_length = 50
+"""
+"""
+for x in range(3):
+  base_length = 70
+  length=base_length * 3
   t.right(90)
+  t.left(length)
   t.forward(base_length)
+  print(90-length)
 
-turtle.done()
+t.circle(20)

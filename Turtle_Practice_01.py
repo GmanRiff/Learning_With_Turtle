@@ -3,9 +3,16 @@ import turtle
 s = turtle.getscreen()
 t = turtle.Turtle()
 
-t.right(90)
-t.forward(100)
-t.left(90)
-t.backward(100)
+"""
+seeing if you did two three digit numbers
+"""
 
-turtle.done()
+for x in range(6):
+  base_length = 50
+  length = base_length * 2
+  
+  t.right(200)
+  t.forward(base_length)
+  
+  t.right(100)
+  t.forward(length)
