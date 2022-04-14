@@ -20,12 +20,12 @@ for x in range(7):
   t.circle(10)
   t.forward(50)
   t.circle(10)
-  t.left(5)
-  t.right(5)
+  #t.left(5)
+  #t.right(5)
   t.forward(15)
   t.circle(10)
   
-"""  
+ 
 t.right(10)
 t.forward(10)
 t.circle(5)
@@ -64,6 +64,7 @@ t.circle(110)
 t.circle(120)
 t.circle(115)
 t.circle(105)
-"""
+t.forward(175)
+
 
       
