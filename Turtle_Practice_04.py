@@ -65,6 +65,3 @@ t.circle(120)
 t.circle(115)
 t.circle(105)
 t.forward(175)
-
-
-      
