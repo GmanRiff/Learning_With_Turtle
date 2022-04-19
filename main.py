@@ -35,3 +35,5 @@ t.circle(200)
 t.right(50)
 t.forward(300)
 t.circle(150)
+t.right(300)
+       
